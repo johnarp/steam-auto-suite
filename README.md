@@ -15,7 +15,8 @@ A collection of tools for managing your Steam library.
 | [Steam Auto Art](./steam-auto-art/) | Automatically applies your custom Steam artwork to your library. |
 | [Steam Auto Collections](./steam-auto-collections/) | Automatically creates and populates your Steam collections. |
 | [Steam Auto ID](./steam-auto-id/) | Find a Steam game's App ID by name. |
+| [Steam Auto Name](./steam-auto-name/) | Find a Steam game's name by App ID. |
 
 # Disclaimer
 
-Steam Auto Suite is an unofficial project and is not affiliated with, endorsed by, or associated with Valve Corporation or Steam in any way. Some tools use Steam's publicly available store search endpoint. "Steam" is a trademark of Valve Corporation.
+Steam Auto Suite is an unofficial project and is not affiliated with, endorsed by, or associated with Valve Corporation or Steam in any way. Some tools use Steam's publicly available endpoints. "Steam" is a trademark of Valve Corporation.

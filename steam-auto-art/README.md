@@ -123,6 +123,52 @@ Done.
 
 `[OK]` means the file was copied. `[OVERWRITE]` means a file with that name already existed in your Steam folder and was replaced.
 
+## Bonus: Logo Placement and Scaling
+
+Steam supports `.json` files alongside your artwork to control logo placement and scaling. For example:
+
+```json
+{
+    "nVersion": 1,
+    "logoPosition": {
+        "pinnedPosition": "CenterCenter",
+        "nWidthPct": 41.33,
+        "nHeightPct": 100
+    }
+}
+```
+
+| Key | Values |
+| - | - |
+| `nVersion` | Format version. Keep as `1` |
+| `pinnedPosition` | Where the logo is anchored. Options: `BottomLeft`, `TopCenter`, `CenterCenter`, `BottomCenter` |
+| `nWidthPct` | Width of the logo in `%` |
+| `nHeightPct` | Height of the logo in `%` |
+
+> `"nVersion": 1` is just what Steam expects. You should keep it as `1`, as changing it doesn't change anything and may break compatibility.
+
+### How To Use
+
+Create a `.json` using the format above with your own values.
+
+Place the `.json` file in the same folder as your artwork. Make sure it follows the naming convention: `[ID].json`. For example:
+
+```
+📁 Steam Assets/
+|--- 💽 SteamAutoApply.py
+|--- 📁 1030300                     <-- App ID (Hollow Knight: Silksong)
+    |--- 🖼️ 1030300p.png
+    |--- 🖼️ 1030300_hero.png
+    |--- 🖼️ 1030300_logo.png
+    |--- 🖼️ 1030300.png
+    |--- ⚙️ 1030300.json
+|--- ...
+```
+
+If you run into issues, try restarting Steam. If that doesn't work, try fully exiting Steam then running the script before reopening.
+
+> Note: Steam may not always preserve or immediately apply `.json` layout changes. Behavior can be inconsistent, especially after updates or reapplying artwork.
+
 ## Notes
 
 - You may need to **restart Steam** (or at least reload your library) after running the script for changes to appear.
