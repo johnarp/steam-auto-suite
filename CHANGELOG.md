@@ -1,7 +1,33 @@
 # Changelog
 
+[1.2.0]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.2.0
 [1.1.0]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.1.0
 [1.0.0]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.0.0
+
+## [1.2.0] - 2026-05-02
+
+### General
+
+#### Added
+
+- Expanded [disclaimer](./README.md#disclaimer) with clarification on file access and "Auto" meaning
+
+### ✨ Steam Auto Favorites
+
+#### Added
+
+- Automatically populates Steam favorites from a user-defined `favorites.json`
+- Updates existing favorites if an entry already exists rather than duplicating it
+- Automatically backs up `cloud-storage-namespace-1.json` before making any changes
+
+### ✨ Steam Auto Launch
+
+#### Added
+
+- Automatically applies launch options to Steam games from a user-defined `launch_options.json`
+- Updates existing launch options if an entry already exists rather than duplicating them
+- Inserts a new `LaunchOptions` entry if one does not already exist for that game
+- Automatically backs up `localconfig.vdf` before making any changes
 
 ## [1.1.0] - 2026-04-30
 
