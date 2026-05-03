@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner](../assets/banner_name.png)
+![Banner](../../assets/banner_name.png)
 
 # Steam Auto Name
 

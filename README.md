@@ -12,12 +12,12 @@ A collection of tools for managing your Steam library.
 
 | Tool | Description |
 | - | - |
-| [Steam Auto Art](./steam-auto-art/) | Automatically applies your custom Steam artwork to your library. |
-| [Steam Auto Collections](./steam-auto-collections/) | Automatically creates and populates your Steam collections. |
-| [Steam Auto Favorites](./steam-auto-favorites/) | Automatically populates your Steam favorites. |
-| [Steam Auto ID](./steam-auto-id/) | Find a Steam game's App ID by name. |
-| [Steam Auto Launch](./steam-auto-launch/) | Automatically applies launch options to your Steam games. |
-| [Steam Auto Name](./steam-auto-name/) | Find a Steam game's name by App ID. |
+| [Steam Auto Art](./tools/steam-auto-art/) | Automatically applies your custom Steam artwork to your library. |
+| [Steam Auto Collections](./tools/steam-auto-collections/) | Automatically creates and populates your Steam collections. |
+| [Steam Auto Favorites](./tools/steam-auto-favorites/) | Automatically populates your Steam favorites. |
+| [Steam Auto ID](./tools/steam-auto-id/) | Find a Steam game's App ID by name. |
+| [Steam Auto Launch](./tools/steam-auto-launch/) | Automatically applies launch options to your Steam games. |
+| [Steam Auto Name](./tools/steam-auto-name/) | Find a Steam game's name by App ID. |
 
 # Disclaimer
 

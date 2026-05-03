@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner](../assets/banner_id.png)
+![Banner](../../assets/banner_id.png)
 
 # Steam Auto ID
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner](../assets/banner_art.png)
+![Banner](../../assets/banner_art.png)
 
 # Steam Auto Art
 

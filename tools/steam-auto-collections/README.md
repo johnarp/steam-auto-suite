@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner](../assets/banner_collections.png)
+![Banner](../../assets/banner_collections.png)
 
 # Steam Auto Collections
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner](../assets/banner_launch.png)
+![Banner](../../assets/banner_launch.png)
 
 # Steam Auto Launch
 

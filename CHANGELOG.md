@@ -1,8 +1,17 @@
 # Changelog
 
+[1.2.1]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.2.1
 [1.2.0]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.2.0
 [1.1.0]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.1.0
 [1.0.0]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.0.0
+
+## [1.2.1] - 2026-05-03
+
+### General
+
+#### Changed
+
+- Move all tools into a [tools](./tools/) folder
 
 ## [1.2.0] - 2026-05-02
 

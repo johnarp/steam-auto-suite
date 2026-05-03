@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner](../assets/banner_favorites.png)
+![Banner](../../assets/banner_favorites.png)
 
 # Steam Auto Favorites
 
