@@ -75,7 +75,7 @@ python SteamAutoLaunch.py
 You'll see output like this:
 
 ```
-Backup saved: C:\Program Files (x86)\Steam\userdata[YOUR USER ID]\config\localconfig.vdf.backup
+Backup saved: C:\Program Files (x86)\Steam\userdata\[YOUR USER ID]\config\localconfig.vdf.backup
 
 [OK]: 2767030 --> -novid -forcenovsync
 [OK]: 1808500 --> -dx11

@@ -1,9 +1,27 @@
 # Changelog
 
+[1.3.0]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.3.0
 [1.2.1]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.2.1
 [1.2.0]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.2.0
 [1.1.0]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.1.0
 [1.0.0]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.0.0
+
+## [1.3.0] - 2026-05-05
+
+### General
+
+#### Changed
+
+- Overhauled README
+
+### ✨ Steam Auto Playtime
+
+#### Added
+
+- Automatically sets playtime for Steam games from a user-defined `playtime.json`
+- Updates existing playtime if an entry already exists rather than duplicating it
+- Inserts a new `Playtime` entry if one does not already exist for that game
+- Automatically backs up `localconfig.vdf` before making any changes
 
 ## [1.2.1] - 2026-05-03
 
