@@ -53,7 +53,6 @@ To use the tool, follow the instructions.
 
 ### Existing Tools
 
-- **Steam Auto Art:** Argparsing to allow more than the top result for a single item or the entire queue
 - **Steam Auto Art:** Icon functionality
 
 ## 📜 Disclaimer

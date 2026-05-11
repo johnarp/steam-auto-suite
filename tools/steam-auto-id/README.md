@@ -50,6 +50,40 @@ You'll see output like:
 1091500 - Cyberpunk 2077
 ```
 
+## Bonus: More Results
+
+You can use `-#` to the right of a game name to specify how many results you want to see for that game. You can also use `--all` to apply the largest `-#` to every game name in the query.
+
+Examples:
+
+```
+python SteamAutoID.py "wolfenstein" -3
+
+612880 - Wolfenstein II: The New Colossus
+201810 - Wolfenstein: The New Order
+350080 - Wolfenstein: The Old Blood
+```
+
+```
+python SteamAutoID.py "resident evil" -5 "hollow knight"
+
+304240 - Resident Evil
+2050650 - Resident Evil 4
+952060 - Resident Evil 3
+883710 - Resident Evil 2
+21690 - Resident Evil 5
+367520 - Hollow Knight
+```
+
+```
+python SteamAutoID.py "god of war" "hollow knight" -2 --all
+
+1593500 - God of War
+2322010 - God of War Ragnarök
+367520 - Hollow Knight
+1030300 - Hollow Knight: Silksong
+```
+
 ## Notes
 
 - Capitalization, punctuation, and special characters don't matter. Steam's search handles it.
