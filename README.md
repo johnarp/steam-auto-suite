@@ -6,6 +6,9 @@
 
 A collection of tools for managing your Steam library.
 
+[![GitHub](https://custom-icon-badges.demolab.com/badge/GitHub_(Primary)-000000?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/johnarp/steam-auto-suite)
+[![GitLab](https://custom-icon-badges.demolab.com/badge/GitLab_(Mirror)-e24329?style=for-the-badge&logo=gitlab&logoColor=ffffff)](https://gitlab.com/johnarp/steam-auto-suite)
+
 [![License](https://img.shields.io/github/license/johnarp/steam-auto-suite?style=for-the-badge)](./LICENSE)
 ![Version](https://img.shields.io/github/v/release/johnarp/steam-auto-suite?style=for-the-badge)
 
@@ -21,16 +24,27 @@ A collection of tools for managing your Steam library.
 | [Steam Auto Collections](./tools/steam-auto-collections/) | Automatically creates and populates your Steam collections. |
 | [Steam Auto Favorites](./tools/steam-auto-favorites/) | Automatically populates your Steam favorites. |
 | [Steam Auto ID](./tools/steam-auto-id/) | Find a Steam game's App ID by name. |
+| [Steam Auto Install](./tools/steam-auto-install/) | Automatically install Steam games from a list. |
 | [Steam Auto Launch](./tools/steam-auto-launch/) | Automatically applies launch options to your Steam games. |
 | [Steam Auto Name](./tools/steam-auto-name/) | Find a Steam game's name by App ID. |
 | [Steam Auto Playtime](./tools/steam-auto-playtime/) | Automatically sets playtime for your Steam games. |
+| [Steam Auto Uninstall](./tools/steam-auto-uninstall/) | Automatically uninstall Steam games from a list. |
 
 ## 🚀 Installation
 
 ### 1. Download the Code
 
+Clone from either repository:
+
 ```
+# GitHub (primary)
 git clone https://github.com/johnarp/steam-auto-suite
+
+# GitLab (mirror)
+git clone https://gitlab.com/johnarp/steam-auto-suite
+```
+
+```
 cd steam-auto-suite
 ```
 
@@ -47,13 +61,15 @@ To use the tool, follow the instructions.
 - **Steam Auto Add:** Automatically add non-Steam games
 - **Steam Auto Clear:** Automatically clear things like custom art, logo position, and launch options
 - **Steam Auto Controller:** Quickly apply controller settings
-- **Steam Auto Install:** Provide a queue and automatically install those games
-- **Steam Auto Uninstall:** The opposite of install
 - **Steam Auto Visibility:** Automatically hide or make visible
 
 ### Existing Tools
 
 - **Steam Auto Art:** Icon functionality
+
+### General
+
+- GUI
 
 ## 📜 Disclaimer
 

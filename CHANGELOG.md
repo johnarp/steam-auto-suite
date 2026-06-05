@@ -1,11 +1,20 @@
 # Changelog
 
+[1.4.0]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.4.0
 [1.3.1]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.3.1
 [1.3.0]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.3.0
 [1.2.1]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.2.1
 [1.2.0]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.2.0
 [1.1.0]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.1.0
 [1.0.0]: https://github.com/johnarp/steam-auto-suite/releases/tag/v1.0.0
+
+## [1.4.0] - 2026-06-04
+
+### Added
+
+- **✨ Steam Auto Install:** Automatically install Steam games from a list.
+- **✨ Steam Auto Uninstall:** Automatically uninstall Steam games from a list.
+- GitLab information in [README](./README.md)
 
 ## [1.3.1] - 2026-05-10
 
